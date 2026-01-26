@@ -34,7 +34,7 @@ on:
 
 jobs:
   build-docs:
-    if: {{ needs.docs-verify.result == 'success' }}
+    if: needs.docs-verify.result == 'success' 
     uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@main
     permissions:
       contents: write
