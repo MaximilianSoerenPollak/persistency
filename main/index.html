@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Key-Value-Storage (rust_kvs) Documentation &#8212; Score Persistency  documentation</title>
+    <title>Persistency Documentation &#8212; Score Persistency  documentation</title>
   
   
   
@@ -38,11 +38,11 @@
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-needs/modern.css?v=803738c0" />
   
   <!-- So that users can add custom icons -->
@@ -72,7 +72,7 @@
         </script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Persistency KVS Module" href="persistency/index.html" />
+    <link rel="next" title="Module Documents" href="persistency/docs/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1.0" />
@@ -152,11 +152,56 @@
   <ul class="bd-navbar-elements navbar-nav">
     
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="persistency/index.html">
-    Persistency KVS Module
+  <a class="nav-link nav-internal" href="persistency/docs/index.html">
+    Module Documents
   </a>
 </li>
 
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/json/index.html">
+    Tiny JSON
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/kvs/index.html">
+    KVS (Key Value Store)
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/docs/index.html">
+    Module Documents
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/json/index.html">
+    Tiny JSON
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"
+                aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="persistency/kvs/index.html">
+    KVS (Key Value Store)
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
   </ul>
 </nav></div>
       
@@ -269,8 +314,43 @@
   <ul class="bd-navbar-elements navbar-nav">
     
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="persistency/index.html">
-    Persistency KVS Module
+  <a class="nav-link nav-internal" href="persistency/docs/index.html">
+    Module Documents
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/json/index.html">
+    Tiny JSON
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/kvs/index.html">
+    KVS (Key Value Store)
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/docs/index.html">
+    Module Documents
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/json/index.html">
+    Tiny JSON
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="persistency/kvs/index.html">
+    KVS (Key Value Store)
   </a>
 </li>
 
@@ -360,101 +440,29 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="toctree-wrapper compound">
+  <section id="persistency-documentation">
+<h1>Persistency Documentation<a class="headerlink" href="#persistency-documentation" title="Link to this heading">#</a></h1>
+<section id="module-documents">
+<span id="persistency-module-documentation"></span><h2>Module Documents<a class="headerlink" href="#module-documents" title="Link to this heading">#</a></h2>
+<div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="persistency/index.html">Persistency KVS Module</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="persistency/docs/index.html">Module Documents Persistency</a></li>
-<li class="toctree-l2"><a class="reference internal" href="persistency/index.html#components">Components</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/docs/index.html">Module Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/json/component_classification.html">Component Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/json/index.html">Tiny JSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/kvs/index.html">KVS (Key Value Store)</a></li>
 </ul>
 </div>
-<section id="key-value-storage-rust-kvs-documentation">
-<h1>Key-Value-Storage (rust_kvs) Documentation<a class="headerlink" href="#key-value-storage-rust-kvs-documentation" title="Link to this heading">#</a></h1>
-<p>This documentation describes the <cite>rust_kvs</cite> crate, which provides a key-value storage implementation with JSON-like persistence using Rust.</p>
-<section id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
-<p><strong>Crate:</strong> <cite>rust_kvs</cite></p>
-<p><strong>Purpose:</strong> Key-Value-Storage API and Implementation</p>
-<p><strong>Description:</strong>
-This crate provides a Key-Value-Store using TinyJSON to persist the data. It uses the Adler32 crate to validate stored data and depends only on the Rust standard library.</p>
 </section>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
-<p>The key-value store is initialized with <cite>Kvs::open</cite> and can be flushed with <cite>Kvs::flush</cite>.</p>
-<p>All TinyJSON-supported datatypes are available:</p>
-<ul class="simple">
-<li><p><cite>Number</cite>: <cite>f64</cite></p></li>
-<li><p><cite>Boolean</cite>: <cite>bool</cite></p></li>
-<li><p><cite>String</cite>: <cite>String</cite></p></li>
-<li><p><cite>Null</cite>: <cite>()</cite></p></li>
-<li><p><cite>Array</cite>: <cite>Vec&lt;KvsValue&gt;</cite></p></li>
-<li><p><cite>Object</cite>: <cite>HashMap&lt;String, KvsValue&gt;</cite></p></li>
+<section id="components">
+<h2>Components<a class="headerlink" href="#components" title="Link to this heading">#</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="persistency/docs/index.html">Module Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/json/component_classification.html">Component Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/json/index.html">Tiny JSON</a></li>
+<li class="toctree-l1"><a class="reference internal" href="persistency/kvs/index.html">KVS (Key Value Store)</a></li>
 </ul>
-<p>JSON arrays can hold mixed types.</p>
-<p>Usage Notes:</p>
-<ul class="simple">
-<li><p>Use <cite>Kvs::set_value(key, value)</cite> to write.</p></li>
-<li><p>Use <cite>Kvs::get_value::&lt;T&gt;(key)</cite> to read.</p></li>
-<li><p>If a key is missing, the store checks for a default and returns it.</p></li>
-<li><p>Defaults are not flushed unless explicitly written.</p></li>
-</ul>
-<p>To check for defaults:</p>
-<ul class="simple">
-<li><p><cite>Kvs::get_default_value</cite></p></li>
-<li><p><cite>Kvs::is_value_default</cite></p></li>
-</ul>
-</section>
-<section id="example">
-<h2>Example<a class="headerlink" href="#example" title="Link to this heading">#</a></h2>
-<div class="highlight-rust notranslate"><div class="highlight"><pre><span></span><span class="k">use</span><span class="w"> </span><span class="n">rust_kvs</span><span class="p">::{</span><span class="n">ErrorCode</span><span class="p">,</span><span class="w"> </span><span class="n">InstanceId</span><span class="p">,</span><span class="w"> </span><span class="n">Kvs</span><span class="p">,</span><span class="w"> </span><span class="n">OpenNeedDefaults</span><span class="p">,</span><span class="w"> </span><span class="n">OpenNeedKvs</span><span class="p">,</span><span class="w"> </span><span class="n">KvsValue</span><span class="p">};</span>
-<span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">collections</span><span class="p">::</span><span class="n">HashMap</span><span class="p">;</span>
-
-<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nb">Result</span><span class="o">&lt;</span><span class="p">(),</span><span class="w"> </span><span class="n">ErrorCode</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">kvs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Kvs</span><span class="p">::</span><span class="n">open</span><span class="p">(</span>
-<span class="w">        </span><span class="n">InstanceId</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span>
-<span class="w">        </span><span class="n">OpenNeedDefaults</span><span class="p">::</span><span class="n">Optional</span><span class="p">,</span>
-<span class="w">        </span><span class="n">OpenNeedKvs</span><span class="p">::</span><span class="n">Optional</span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span><span class="s">&quot;number&quot;</span><span class="p">,</span><span class="w"> </span><span class="mf">123.0</span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span><span class="s">&quot;bool&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span><span class="s">&quot;string&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;First&quot;</span><span class="p">.</span><span class="n">to_string</span><span class="p">())</span><span class="o">?</span><span class="p">;</span>
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span><span class="s">&quot;null&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">())</span><span class="o">?</span><span class="p">;</span>
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span>
-<span class="w">        </span><span class="s">&quot;array&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="fm">vec!</span><span class="p">[</span>
-<span class="w">            </span><span class="n">KvsValue</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="mf">456.0</span><span class="p">),</span>
-<span class="w">            </span><span class="kc">false</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span>
-<span class="w">            </span><span class="s">&quot;Second&quot;</span><span class="p">.</span><span class="n">to_string</span><span class="p">().</span><span class="n">into</span><span class="p">(),</span>
-<span class="w">        </span><span class="p">],</span>
-<span class="w">    </span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-<span class="w">    </span><span class="n">kvs</span><span class="p">.</span><span class="n">set_value</span><span class="p">(</span>
-<span class="w">        </span><span class="s">&quot;object&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="n">HashMap</span><span class="p">::</span><span class="n">from</span><span class="p">([</span>
-<span class="w">            </span><span class="p">(</span><span class="s">&quot;sub-number&quot;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w"> </span><span class="n">KvsValue</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="mf">789.0</span><span class="p">)),</span>
-<span class="w">            </span><span class="p">(</span><span class="s">&quot;sub-bool&quot;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w"> </span><span class="kc">true</span><span class="p">.</span><span class="n">into</span><span class="p">()),</span>
-<span class="w">            </span><span class="p">(</span><span class="s">&quot;sub-string&quot;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w"> </span><span class="s">&quot;Third&quot;</span><span class="p">.</span><span class="n">to_string</span><span class="p">().</span><span class="n">into</span><span class="p">()),</span>
-<span class="w">            </span><span class="p">(</span><span class="s">&quot;sub-null&quot;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w"> </span><span class="p">().</span><span class="n">into</span><span class="p">()),</span>
-<span class="w">            </span><span class="p">(</span>
-<span class="w">                </span><span class="s">&quot;sub-array&quot;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span>
-<span class="w">                </span><span class="n">KvsValue</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="fm">vec!</span><span class="p">[</span>
-<span class="w">                    </span><span class="n">KvsValue</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="mf">1246.0</span><span class="p">),</span>
-<span class="w">                    </span><span class="kc">false</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span>
-<span class="w">                    </span><span class="s">&quot;Fourth&quot;</span><span class="p">.</span><span class="n">to_string</span><span class="p">().</span><span class="n">into</span><span class="p">(),</span>
-<span class="w">                </span><span class="p">]),</span>
-<span class="w">            </span><span class="p">),</span>
-<span class="w">        </span><span class="p">]),</span>
-<span class="w">    </span><span class="p">)</span><span class="o">?</span><span class="p">;</span>
-
-<span class="w">    </span><span class="nb">Ok</span><span class="p">(())</span>
-<span class="p">}</span>
-</pre></div>
 </div>
-<ul class="simple">
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/features/persistency/requirements/index.html#feat_req__persistency__tooling">feat_req__persistency__tooling</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/features/persistency/requirements/index.html#feat_req__persistency__variant_management">feat_req__persistency__variant_management</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/features/persistency/requirements/index.html#feat_req__persistency__fast_access">feat_req__persistency__fast_access</a></p></li>
-</ul>
 </section>
 </section>
 
@@ -469,11 +477,11 @@ This crate provides a Key-Value-Store using TinyJSON to persist the data. It use
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="persistency/index.html"
+       href="persistency/docs/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Persistency KVS Module</p>
+        <p class="prev-next-title">Module Documents</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -496,9 +504,8 @@ This crate provides a Key-Value-Store using TinyJSON to persist the data. It use
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-documents">Module Documents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#components">Components</a></li>
 </ul>
   </nav></div>
 
