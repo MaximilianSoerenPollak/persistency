@@ -12,6 +12,12 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
+
+.. _persistency_module:
+
+Persistency Module
+==================
+
 .. mod:: Persistency Module
    :id: mod__persistency
    :version: 1
