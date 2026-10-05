@@ -34,11 +34,11 @@ compile_pip_requirements(
 )
 
 filegroup(
-    name="cit_files",
+    name = "cit_files",
     srcs = glob(["tests/**/*.py"]) + ["test_properties.py"],
     visibility = [
-    "//score/kvs/tests:__subpackages__",
-    "//score/kvs_rust/tests:__subpackages__"
+        "//score/kvs/tests:__subpackages__",
+        "//score/kvs_rust/tests:__subpackages__",
     ],
 )
 
