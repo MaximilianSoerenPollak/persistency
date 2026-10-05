@@ -33,6 +33,15 @@ compile_pip_requirements(
     ],
 )
 
+filegroup(
+    name="cit_files",
+    srcs = glob(["tests/**/*.py"]) + ["test_properties.py"],
+    visibility = [
+    "//score/kvs/tests:__subpackages__",
+    "//score/kvs_rust/tests:__subpackages__"
+    ],
+)
+
 score_virtualenv(
     name = "python_tc_venv",
     reqs = all_requirements,
@@ -66,7 +75,7 @@ score_pytest(
 score_pytest(
     name = "cit_rust",
     size = "small",
-    srcs = glob(["tests/**/*.py"]) + ["test_properties.py"],
+    srcs = [":cit_files"],
     args = [
         "-m rust",
         "--rust-target-path=$(rootpath //score/kvs/tests/test_scenarios/rust:test_scenarios)",
