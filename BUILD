@@ -45,11 +45,6 @@ setup_starpls(
     visibility = ["//visibility:public"],
 )
 
-filegroup(
-    name="copyright_exclusion_file",
-    srcs=["tools/copyright_exclusions.txt"],
-    visibility = ["//visibility:public"]
-)
 copyright_checker(
     name = "copyright",
     exclusion = "//:tools/copyright_exclusions.txt",
